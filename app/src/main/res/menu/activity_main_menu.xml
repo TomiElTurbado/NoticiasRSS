@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/aniadir"
+        android:icon="@drawable/add_icon"
+        android:title="Añadir canal RSS"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/eliminar"
+        android:icon="@drawable/remove_icon"
+        android:title="Eliminar canal RSS"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/actualizar"
+        android:icon="@drawable/refresh_icon"
+        android:title="Actualizar"
+        app:showAsAction="always" />
+
+</menu>
